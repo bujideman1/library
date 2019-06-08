@@ -8,5 +8,5 @@ O:\c#\图书馆\图书馆\obj\Debug\图书馆.csproj.CoreCompileInputs.cache
 O:\c#\图书馆\图书馆\obj\Debug\图书馆.exe
 O:\c#\图书馆\图书馆\obj\Debug\图书馆.pdb
 O:\c#\图书馆\图书馆\obj\Debug\图书馆.returnbook.resources
-O:\c#\图书馆\图书馆\bin\Debug\图书馆.exe.CodeAnalysisLog.xml
-O:\c#\图书馆\图书馆\bin\Debug\图书馆.exe.lastcodeanalysissucceeded
+O:\c#\图书馆\图书馆\obj\Debug\图书馆.csprojAssemblyReference.cache
+O:\c#\图书馆\图书馆\obj\Debug\图书馆.Welcome.resources

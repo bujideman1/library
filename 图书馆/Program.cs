@@ -16,7 +16,7 @@ namespace 图书馆
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lendbook());
+            Application.Run(new Welcome());
         }
     }
 }
