@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="O:\c#\图书馆\图书馆\bin\Debug\图书馆.exe">
+   <Modules>
+    <Module Name="图书馆.exe">
+     <Namespaces>
+      <Namespace Name="图书馆">
+       <Types>
+        <Type Name="Function" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CheakLogin(System.String,System.String,System.Boolean)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2019-06-06 14:15:49Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="O:\c#\图书馆\图书馆" File="Function.cs" Line="21">传递给 'Function.CheakLogin(string, string, bool)' 中的 'SqlCommand.SqlCommand(string, SqlConnection)' 的查询字符串可能包含以下变量 'username', 'password', '...'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="lendbook" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2019-06-06 14:15:49Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="O:\c#\图书馆\图书馆" File="lendbook.cs" Line="42">传递给 'lendbook.button1_Click(object, EventArgs)' 中的 'SqlCommand.CommandText.set(string)' 的查询字符串可能包含以下变量 'this.textBox1.Text', 'this.textBox3.Text', 'new string[9][5]', 'returnTime'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="O:\c#\图书馆\图书馆" File="lendbook.cs" Line="38">传递给 'lendbook.button1_Click(object, EventArgs)' 中的 'SqlCommand.CommandText.set(string)' 的查询字符串可能包含以下变量 'this.textBox3.Text'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="O:\c#\图书馆\图书馆" File="lendbook.cs" Line="45">传递给 'lendbook.button1_Click(object, EventArgs)' 中的 'SqlCommand.CommandText.set(string)' 的查询字符串可能包含以下变量 'this.textBox3.Text'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="O:\c#\图书馆\图书馆" File="lendbook.cs" Line="29">传递给 'lendbook.button1_Click(object, EventArgs)' 中的 'SqlCommand.SqlCommand(string, SqlConnection)' 的查询字符串可能包含以下变量 'this.textBox1.Text'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="returnbook" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2019-06-06 14:15:49Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="O:\c#\图书馆\图书馆" File="returnbook.cs" Line="38">传递给 'returnbook.button1_Click(object, EventArgs)' 中的 'SqlCommand.CommandText.set(string)' 的查询字符串可能包含以下变量 'this.textBox1.Text'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="O:\c#\图书馆\图书馆" File="returnbook.cs" Line="41">传递给 'returnbook.button1_Click(object, EventArgs)' 中的 'SqlCommand.CommandText.set(string)' 的查询字符串可能包含以下变量 'this.textBox1.Text'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="图书馆.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2019-06-06 14:15:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>避免使用未调用的私有代码</Name>
+   <Description>存在对外部不可见的未调用代码，该代码不是已知的运行时入口点。如果错误地引发此冲突，请向 Visual Studio 代码分析团队发送问题报告。</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>检查 SQL 查询是否存在安全漏洞</Name>
+   <Description>通过用户输入生成的 SQL 命令字符串容易受到 SQL 注入式攻击。Microsoft SQL Server 和其他数据库服务器支持存储过程和参数化 SQL 查询，这将降低受到注入式攻击的风险。</Description>
+   <Resolution Name="WithNonLiterals">传递给 {1} 中的 {0} 的查询字符串可能包含以下变量 {2}。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>
