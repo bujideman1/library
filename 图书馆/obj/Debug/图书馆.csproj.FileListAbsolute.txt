@@ -10,3 +10,4 @@ O:\c#\图书馆\图书馆\obj\Debug\图书馆.pdb
 O:\c#\图书馆\图书馆\obj\Debug\图书馆.returnbook.resources
 O:\c#\图书馆\图书馆\obj\Debug\图书馆.csprojAssemblyReference.cache
 O:\c#\图书馆\图书馆\obj\Debug\图书馆.Welcome.resources
+O:\c#\图书馆\图书馆\obj\Debug\图书馆.Login.resources
